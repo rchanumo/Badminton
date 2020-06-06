@@ -1,0 +1,41 @@
+{
+    "ac_kwargs":	{},
+    "act_noise":	0.1,
+    "actor_critic":	"mlp_actor_critic",
+    "batch_size":	100,
+    "env_fn":	"<function <lambda> at 0x7f64744f51e0>",
+    "epochs":	10000,
+    "exp_name":	"test3.txt",
+    "gamma":	0.99,
+    "logger":	{
+        "<spinup.utils.logx.EpochLogger object at 0x7f64744edf98>":	{
+            "epoch_dict":	{},
+            "exp_name":	"test3.txt",
+            "first_row":	true,
+            "log_current_row":	{},
+            "log_headers":	[],
+            "output_dir":	"/home/ganesh/ravi/spinningup/data/test3.txt",
+            "output_file":	{
+                "<_io.TextIOWrapper name='/home/ganesh/ravi/spinningup/data/test3.txt/progress.txt' mode='w' encoding='UTF-8'>":	{
+                    "mode":	"w"
+                }
+            }
+        }
+    },
+    "logger_kwargs":	{
+        "exp_name":	"test3.txt",
+        "output_dir":	"/home/ganesh/ravi/spinningup/data/test3.txt"
+    },
+    "max_ep_len":	500,
+    "noise_clip":	0.5,
+    "pi_lr":	0.001,
+    "policy_delay":	2,
+    "polyak":	0.995,
+    "q_lr":	0.001,
+    "replay_size":	1000000,
+    "save_freq":	1,
+    "seed":	0,
+    "start_steps":	10000,
+    "steps_per_epoch":	2000,
+    "target_noise":	0.2
+}
